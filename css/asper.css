@@ -97,7 +97,7 @@ header nav ul li .active {
   border-bottom: 1px solid var(--main-color);
   padding-bottom: 20px;
 }
-header nav ul li a:hover {
+header nav ul li:hover a {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
   padding-bottom: 20px;
@@ -222,10 +222,10 @@ header .container nav .search i {
   transform: translateY(-50%);
 }
 .landing .fa-angle-left {
-  left: 30px;
+  left: 20px;
 }
 .landing .fa-angle-right {
-  right: 30px;
+  right: 20px;
 }
 .landing .bullets {
   position: absolute;
@@ -238,8 +238,8 @@ header .container nav .search i {
 }
 .landing .bullets li {
   border: 1px solid white;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -247,14 +247,35 @@ header .container nav .search i {
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
-@media (max-width: 380px) {
+@media (max-width: 374px) {
   .landing {
     background-position-x: 660px;
   }
+  .landing .color-middle {
+    font-size: 20px;
+  }
+  .landing .text {
+    width: 100%;
+    padding: 40px;
+  }
+  .landing .text .content h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .landing .text .content p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .landing .fa-angle-left {
+    left: 15px;
+  }
+  .landing .fa-angle-right {
+    right: 15px;
+  }
 }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .landing {
-    background-position-x: 790px;
+    background-position-x: 780px;
   }
   .landing .color-middle {
     font-size: 20px;
