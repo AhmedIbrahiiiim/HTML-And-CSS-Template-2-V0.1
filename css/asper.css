@@ -378,6 +378,8 @@ header .container nav .search i {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .services .services-content .srv-box:not(:last-child) {
     margin-bottom: 50px;
   }
   .services .services-content .srv-box i {
