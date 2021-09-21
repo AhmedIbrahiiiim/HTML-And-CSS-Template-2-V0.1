@@ -252,7 +252,7 @@ header .container nav .search i {
     background-position-x: 660px;
   }
 }
-@media (min-width: 381px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .landing {
     background-position-x: 790px;
   }
