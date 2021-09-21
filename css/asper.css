@@ -89,12 +89,12 @@ header nav ul li a {
 header nav ul li .active {
   color: var(--main-color);
   border-bottom: 2px solid var(--main-color);
-  padding-bottom: 30px;
+  padding-bottom: 21px;
 }
 header nav ul li a:hover {
   color: var(--main-color);
   border-bottom: 2px solid var(--main-color);
-  padding-bottom: 30px;
+  padding-bottom: 21px;
 }
 header nav ul:hover li .active {
   color: white;
@@ -103,7 +103,7 @@ header nav ul:hover li .active {
 header nav ul:hover li .active:hover {
   color: var(--main-color);
   border-bottom: 2px solid var(--main-color);
-  padding-bottom: 30px;
+  padding-bottom: 21px;
 }
 header .container nav .search i {
   font-size: 18px;
@@ -169,7 +169,7 @@ header .container nav .search i {
 .landing {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  min-height: 100vh;
+  min-height: calc(100vh + 21px);
   background-image: url(../images/landing.jpg);
   background-size: cover;
   width: 100%;
