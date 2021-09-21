@@ -1,7 +1,8 @@
 /* Start Variables */
 :root {
   --main-color: #19c8fa;
-  --transparent-color: rgb(15 116 143 / 70%);
+  --second-color: #ddd;
+  --transparent-color: rgb(15, 116, 143, 0.7);
   --section-padding: 100px;
 }
 /* End Variables */
@@ -47,12 +48,6 @@ ul {
   }
 }
 /* End Global Rules */
-html {
-  background-color: rgb(214, 211, 205);
-}
-/* .container {
-  border: 2px dashed pink;
-} */
 /* Start Header */
 header .container {
   display: flex;
@@ -154,7 +149,7 @@ header .container nav .search i {
   }
   header nav ul li {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
   }
   header nav ul li a {
     display: block;
@@ -194,10 +189,93 @@ header .container nav .search i {
   height: 100%;
   background-color: rgb(0 0 0 / 60%);
 }
-
-@media (max-width: 767px) {
+.landing .text {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--transparent-color);
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.landing .text .content {
+  max-width: 500px;
+}
+.landing .text .content h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.landing .text .content p {
+  font-size: 14px;
+  line-height: 2;
+}
+.landing .color-middle {
+  color: var(--second-color);
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.landing .fa-angle-left {
+  left: 30px;
+}
+.landing .fa-angle-right {
+  right: 30px;
+}
+.landing .bullets {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing .bullets li {
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.landing .bullets .active {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+@media (max-width: 380px) {
+  .landing {
+    background-position-x: 660px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767px) {
   .landing {
     background-position-x: 790px;
+  }
+  .landing .color-middle {
+    font-size: 20px;
+  }
+  .landing .text {
+    width: 100%;
+    padding: 40px;
+  }
+  .landing .text .content h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .landing .text .content p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .landing .fa-angle-left {
+    left: 20px;
+  }
+  .landing .fa-angle-right {
+    right: 20px;
   }
 }
 /* End Landing */
