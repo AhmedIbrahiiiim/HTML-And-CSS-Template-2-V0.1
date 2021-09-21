@@ -138,7 +138,7 @@ header .container nav .search i {
     flex-direction: column;
     position: absolute;
     left: 0;
-    top: 82px;
+    top: 66px;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
