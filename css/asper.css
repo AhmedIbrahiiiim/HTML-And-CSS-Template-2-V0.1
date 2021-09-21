@@ -272,10 +272,10 @@ header .container nav .search i {
     line-height: 1.4;
   }
   .landing .fa-angle-left {
-    left: 20px;
+    left: 15px;
   }
   .landing .fa-angle-right {
-    right: 20px;
+    right: 15px;
   }
 }
 /* End Landing */
