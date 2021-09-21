@@ -63,7 +63,7 @@ header .container {
   border-bottom: 1px solid white;
 }
 header .logo img {
-  width: 150px;
+  width: 100px;
 }
 header nav {
   display: flex;
@@ -106,7 +106,7 @@ header nav ul:hover li .active:hover {
   padding-bottom: 30px;
 }
 header .container nav .search i {
-  font-size: 25px;
+  font-size: 18px;
   color: white;
   margin-left: 20px;
   padding-left: 20px;
@@ -121,7 +121,7 @@ header .container nav .search i {
   }
   header .container nav .toggle-menu {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     transition: 0.3s;
     color: white;
   }
