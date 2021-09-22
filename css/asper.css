@@ -246,6 +246,7 @@ header .container nav .search i {
   padding: 50px;
   display: flex;
   justify-content: flex-end;
+  z-index: 1;
 }
 .landing .text .content {
   max-width: 500px;
