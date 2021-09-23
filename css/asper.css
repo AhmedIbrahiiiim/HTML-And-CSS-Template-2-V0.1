@@ -166,6 +166,7 @@ header .container nav .search i {
   padding-left: 20px;
   border-left: 1px solid white;
   transition: 0.3s;
+  cursor: pointer;
 }
 header .container nav .search i:hover {
   color: var(--main-color);
