@@ -165,6 +165,10 @@ header .container nav .search i {
   margin-left: 20px;
   padding-left: 20px;
   border-left: 1px solid white;
+  transition: 0.3s;
+}
+header .container nav .search i:hover {
+  color: var(--main-color);
 }
 @media (max-width: 767px) {
   header .container nav {
@@ -822,14 +826,14 @@ header .container nav .search i {
   margin-bottom: 20px;
   display: block;
 }
-.quote .container q::before{
+.quote .container q::before {
   font-family: "Font Awesome 5 Pro";
   content: "\f10d";
   font-size: 16px;
   position: relative;
   top: -5px;
 }
-.quote .container q::after{
+.quote .container q::after {
   font-family: "Font Awesome 5 Pro";
   content: "\f10e";
   font-size: 16px;
